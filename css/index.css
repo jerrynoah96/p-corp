@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Dosis', sans-serif;
 }
 
 .navbar{
@@ -27,7 +28,7 @@ header{
     to bottom,
     rgba(0, 0, 128, 0.3),
     rgba(0, 0, 128, 0.3)
-  ),url(../images/business-teamwork-join-hands-together-business-teamwork-concept.svg);
+  ),url("../images/pcbg.jpeg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -39,6 +40,50 @@ header{
 header h1 {
     font-weight: bolder;
   font-size: 3rem;
+}
+
+section{
+    text-align: center;
+    padding: 2% 10%;
+    background-color: rgba(245,255,250, 0.7);
+    
+}
+
+section h2{
+    color: rgba(0,0,128);
+    margin-bottom: 2rem;
+}
+section h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+section p{
+    font-size: 1.2rem;
+}
+.contact{
+    background-color: rgba(0,0,128, 0.8);
+    text-align: center;
+    
+}
+.contact h2{
+    color: rgba(255, 255, 255);
+    
+    text-align: center;
+    
+    
+}
+.contact a{
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.contact-links a{
+    display: block;
+    
+}
+.contact a[:nth-child(2)]{
+    margin-top: 1rem;
 }
 @media only screen and (max-width: 900px){
    
@@ -55,6 +100,7 @@ header h1 {
     }
     header{
         padding: 0 0.7rem;
+        background-position: center;
     }
 }
 
