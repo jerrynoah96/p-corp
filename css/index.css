@@ -85,6 +85,9 @@ section p{
 .contact a[:nth-child(2)]{
     margin-top: 1rem;
 }
+.about ul{
+    list-style-type: none;
+}
 @media only screen and (max-width: 900px){
    
     header h1{
