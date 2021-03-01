@@ -84,7 +84,7 @@ section p{
     display: block;
     
 }
-.contact a[:nth-child(2)]{
+.contact a:nth-child(2){
     margin-top: 1rem;
 }
 .about p,
